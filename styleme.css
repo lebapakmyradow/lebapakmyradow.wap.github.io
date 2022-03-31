@@ -1,0 +1,33 @@
+
+body{
+    font-family: "Comic Sans MS", serif;
+}
+h2 {
+    color: darkslateblue;
+}
+li {
+    color : rgb(0, 195, 255);
+}
+strong {
+    font-family: "Courier New", serif;
+}
+
+.main {
+    background-color: antiquewhite;
+    margin: 0 auto;
+
+}
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.firstcharacter {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
