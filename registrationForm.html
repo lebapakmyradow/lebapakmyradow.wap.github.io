@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="formStyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1><strong>Workshop Registration</strong></h1>
+    <form>
+     <div class="container">
+      <div class="left_side">
+      <p><u>Register now while seats are available!</u> </p>
+
+      <div class="form_control"> <label for="first-name" > <strong>First Name</strong> <span class="asterisk">*</span></label>  <input type="text"id="first-name" name="first_name" required></div>
+      <div class="form_control"> <label for="last-name" ><strong>Last Name</strong><span class="asterisk">*</span></label>  <input type="text"id="last-name" name="last_name" required></div>
+      <div class="form_control"> <label for="company-name" ><strong>Insurance/Comapany</strong><span class="asterisk">*</span></label>  <input type="text"id="company-name" name="last_name" required></div>
+      <div class="form_control"> <label for="address" ><strong>Address</strong><span class="asterisk">*</span></label><textarea type="text"id="address" name="Address" rows="4" required> </textarea></div>
+      <div class="form_control"> <label for="city" ><strong>City</strong><span class="asterisk">*</span></label><input type="text"id="city" name="City" rows="4" required></div>
+      <div class="form_control"> <label for="province" ><strong>State/Province/Region</strong></label>
+        <select id="province" name="Province">
+        <option value="">-Select-</option> <option value="">Iowa</option> <option value="">North Carolina</option><option value="">Texas</option><option value="">California</option>   
+        </select>
+      </div>
+      <div class="form_control"> <label for="country" ><strong>Country</strong></label>
+        <select id="country" name="Country">
+        <option value="">-Select-</option> <option value="">United States</option> <option value="">Turkmenistan</option><option value="">Turkey</option><option value="">China</option>   
+        </select>
+    </div>
+      <div class="form_control"> <label for="email" ><strong>Email</strong><span class="asterisk">*</span></label>  <input type="text"id="email" name="Email" required></div>
+      <div class="form_control"> <label for="phone" ><strong>Phone Number</strong><span class="asterisk"> *</span></label>  <input type="text"id="phone" name="Phone" required></div>
+      </div>
+
+      <div class="right_side">
+         <p> <u>Lunch</u></p>
+         <div class="form_control">
+            <label for="meal"> <strong>Meal Preference</strong></label>
+            <select id="meal">
+                <option>Vegetarian</option> <option>Non-vegetarian</option> 
+            </select>
+         </div>
+        <p><u>Payment Details</u></p>
+        <div class="form_control">
+            <label> <strong>Payment mode</strong></label>
+            <div class="form-group">
+                <div><input type="checkbox" value="cash" /> Cash</div>
+                <div><input type="checkbox" value="cheque"/> Cheque</div>
+                <div><input type="checkbox" value="draft"/> Demand Draft</div>
+            </div>
+        </div>
+        <div class="form_control">
+            <label for="cheque-no"> <strong>DD/Cheque No</strong></label><input id="cheque-no" type="text" name="company_instituation" />
+        </div>
+        <div class="form_control">
+            <label for="drawn-on"> <strong>Drawn On (Bank Name)</strong></label><input id="drawn-on" type="text" name="company_instituation" />
+        </div>
+        <div class="form_control">
+            <label for="payable-at"> <strong>Payable At</strong></label><input id="payable-at" type="text" name="company_instituation" />
+        </div>
+       </div>
+     </div>
+    <div class="footer">
+        <button class="button1">Submit</button>
+        <button class="button1">Reset</button>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+    body{
+    margin: 0;
+    padding: 0;
+    
+    }
+    label{
+        padding-right: 100px;
+    }
+    h1{
+    height: 35px;
+    background-color: rgb(114, 146, 114);
+    border: 7px solid rgb(114, 146, 114);
+    width: 80%;
+    margin: 0 auto;
+    
+    }
+    .asterisk{
+        color: red;
+    }
+    .container{
+    
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        border: 7px solid rgb(114, 146, 114);
+        
+    }
+    .right_side{
+        padding-left: 20px;
+        border: 3px solid rgb(114, 146, 114);
+        width: 50%;
+    
+    }
+    select{
+        width:170px ;
+    }
+    .payment_details{
+      padding-bottom: 10px;
+    }
+    .form_control{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: flex;
+    
+    }
+    .form_control label{
+        width: 40%;
+    }
+    
+    .left_side{
+        padding-left: 20px; 
+        flex-direction: column;
+        padding-top: 10px;
+        border: 2px solid rgb(114, 146, 114);
+        width: 50%;
+    
+    }
+    
+    .footer{
+        padding-top: 10px;
+        background-color: rgb(218, 211, 211);
+        text-align: center;
+        height: 25px;
+        border: 7px solid rgb(218, 211, 211);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .button1{
+        background-color:rgb(114, 146, 114) ;
+        color: white;
+    }
